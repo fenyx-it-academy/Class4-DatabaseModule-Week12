@@ -57,7 +57,7 @@ age_label = tk.Label(root, text='Age', font=('calibre', 10, 'bold'))
 age_entry = tk.Entry(root, textvariable=age_var, font=('calibre', 10, 'normal'))
 
 surname_label = tk.Label(root, text='Surname', font=('calibre', 10, 'bold'))
-surname_entry = tk.Entry(root, textvariable=surname_var, font=('calibre', 10, 'normal'), show='*')
+surname_entry = tk.Entry(root, textvariable=surname_var, font=('calibre', 10, 'normal'))#, show='*')
 
 
 sub_btn = tk.Button(root, text='Add', command=submit)
